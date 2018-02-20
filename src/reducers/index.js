@@ -1,5 +1,5 @@
 const initialState = {
-    message: `It's easy to integrate React and Redux!!!`,
+    message: `Bananas!!`,
 }
 
 function reducer(state = initialState){

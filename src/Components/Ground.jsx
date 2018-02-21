@@ -7,7 +7,7 @@ const Ground = () => {
   };
   
   const division = {
-    stoke: '#458232',
+    stroke: '#458232',
     strokeWidth: '3px',
   };
   

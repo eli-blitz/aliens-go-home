@@ -25,7 +25,7 @@ const StartGame = (props) => {
        fontFamily: '"Joti One", cursive',
        fontSize: 60,
        fill: '#e3e3e3',
-       curser: 'pointer',
+       cursor: 'pointer',
      },
      onClick: props.onClick,
    };

@@ -10,7 +10,9 @@ import FlyingObject from './FlyingObject';
 import Heart from './Heart';
 import StartGame from './StartGame';
 import Title from './Title';
+import Login from './Login';
 import { gameHeight } from '../utils/constants';
+import { signIn } from 'auth0-web';
 
 const Canvas = (props) => {
   const viewBox = [
@@ -43,6 +45,7 @@ const Canvas = (props) => {
         <g>
           <StartGame onClick={()=>props.startGame()} />
           <Title />
+          <Login authenticate={signIn} />
         </g>
       }
 

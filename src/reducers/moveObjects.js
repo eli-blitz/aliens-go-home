@@ -13,7 +13,7 @@ function moveObjects(state, action){
   const flyingObjects = newState.gameState.flyingObjects.filter(object => (
     now - object.createdAt < 4000
   ));
-
+  
   const {x,y} = mousePosition;
   const angle = calculateAngle(0,0,x,y);
   return {
